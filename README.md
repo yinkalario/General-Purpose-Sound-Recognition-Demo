@@ -18,5 +18,9 @@ If you use our codes in any format, please consider citing the following paper:
 To be appear
 ```
 
+## Please also check our AudioSet work on, where the model of this demo is trained
+https://github.com/qiuqiangkong/audioset_tagging_cnn
+
+
 ## Authors
 Yin Cao, Qiuqiang Kong, Christian Kroos, Turab Iqbal, Wenwu Wang, Mark Plumbley
