@@ -11,6 +11,11 @@ This is a demo based on our AudioSet work. Please download trained models from h
 Please also check our AudioSet work on https://github.com/qiuqiangkong/audioset_tagging_cnn, where the model of this demo is trained.
 
 ## Run
+Create python environment first from:
+```shell
+conda env create -f environment.yml
+```
+
 Simply run 
 
 ```shell
