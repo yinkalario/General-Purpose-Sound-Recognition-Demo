@@ -16,7 +16,7 @@ numba==0.47.0
 numpy==1.17.4
 olefile==0.46
 pandas==0.25.3
-Pillow==7.0.0
+Pillow
 PyAudio==0.2.11
 pycparser==2.19
 pyparsing==2.4.6
