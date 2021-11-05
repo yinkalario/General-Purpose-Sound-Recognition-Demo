@@ -6,20 +6,30 @@ We apply the audio tagging system to build a sound event detection (SED) system.
 https://www.youtube.com/watch?v=7TEtDMzdLeY
 
 ## Download models
-This is a demo based on our AudioSet work. Please download trained models from https://zenodo.org/record/3576599, and save models in **models** folder. 
+This is a demo based on our AudioSet work. Please download trained models from https://zenodo.org/record/3576599, and save models in **models** folder. This demo uses `CNN9`(~150MB). You can download it using `wget` as follows:
+
+```
+wget https://zenodo.org/record/3576599/files/Cnn9_GMP_64x64_300000_iterations_mAP%3D0.37.pth?download=1
+```
 
 Please also check our AudioSet work on https://github.com/qiuqiangkong/audioset_tagging_cnn, where the model of this demo is trained.
 
-## Run
-Create python environment first from:
+## Install & Run
+
+We recommend creating a Python environment using Anaconda and installing the dependencies as follows:
+
 ```shell
-conda env create -f environment.yml
+conda create -c anaconda -n sed_demo python=3.7 pyaudio
+conda activate sed_demo
+pip install -r requirements.txt
 ```
 
-Simply run 
+Alternatively, you can find a full list of working dependencies (tested on Ubuntu 20.04) [here](all_dependencies.txt).
+
+Then, the following command starts the app:
 
 ```shell
-python MSoS_demo_generalisation.py
+python MSoS_demo_recognition.py
 ```
 
 ## Citation
