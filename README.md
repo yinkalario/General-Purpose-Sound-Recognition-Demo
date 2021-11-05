@@ -1,5 +1,7 @@
 # General-Purpose-Sound-Recognition-Demo
-General purpose sound recognition demo.
+
+
+This is the origininal version of our general-purpose sound recognition demo, developed in 2019. Check [here](https://github.com/yinkalario/General-Purpose-Sound-Recognition-Demo) for newer versions.
 
 ## Example
 We apply the audio tagging system to build a sound event detection (SED) system. The SED prediction is obtained by applying the audio tagging system on consecutive 2-second segments. The video of demo can be viewed at: <br>
