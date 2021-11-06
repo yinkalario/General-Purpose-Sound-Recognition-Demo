@@ -83,7 +83,6 @@ Note that the terminal will print all available parameters and their values upon
 * https://research.google.com/audioset/dataset
 * https://github.com/qiuqiangkong/audioset_tagging_cnn
 * https://github.com/qiuqiangkong/panns_inference
-* https://github.com/yinkalario/General-Purpose-Sound-Recognition-Demo
 * https://github.com/yinkalario/Sound-Event-Detection-AudioSet
 
 
