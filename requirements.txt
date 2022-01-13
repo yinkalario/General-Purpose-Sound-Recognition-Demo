@@ -6,4 +6,4 @@ torchlibrosa==0.0.4
 numba==0.45
 omegaconf==2.1.1
 llvmlite==0.32.1
-Pillow==8.4.0
+Pillow==9.0.0
