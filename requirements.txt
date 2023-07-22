@@ -1,7 +1,7 @@
 matplotlib==3.0.3
 soundfile==0.10.3.post1
 librosa==0.6.3
-torch==1.0.1.post2
+torch==1.13.1
 torchlibrosa==0.0.4
 numba==0.45
 omegaconf==2.1.1
